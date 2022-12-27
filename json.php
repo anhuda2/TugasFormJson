@@ -18,7 +18,5 @@ while ($row = mysqli_fetch_assoc($result)) {
 // Encode array menjadi JSON dan tampilkan
 echo json_encode($data);
 
-// Tutup koneksi
-mysqli_close($conn);
 
 ?>
